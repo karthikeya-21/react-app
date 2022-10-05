@@ -1,0 +1,102 @@
+@font-face {
+  font-family: 'Open Sans Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url('chrome-extension://gkkdmjjodidppndkbkhhknakbeflbomf/fonts/open_sans/open-sans-v18-latin-regular.woff');
+}
+body{
+  background: #192133;
+  ;
+}
+button{
+  color: white;
+  font-weight: 600;
+  float: center;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(12, 26, 224);
+  letter-spacing: 1px;
+  padding: 12px 10px;
+  font-style: italic;
+}
+button:hover{
+  transition: 200ms;
+ scale:1.03;
+ background-color: rgb(59, 143, 211);
+}
+
+.column1{
+  height: 100%;
+  float: left;
+  width: 90%;
+  font-family:  'Open Sans Regular';
+  letter-spacing: 1px;
+}
+.column2{
+  height: 100%;
+  float: left;
+  width: 10%;
+}
+.row{
+  height: 50px;
+  padding: 20px 50px 0px 30px ;
+}
+
+.box{
+  background-color: skyblue !important;
+}
+
+.box2{
+  margin-left: 100px;
+  align-items: center;
+}
+
+.avatar{
+  border-radius: 50%;
+}
+
+
+.column3{
+  float: left !important;
+  width: 33% !important;
+}
+h2{
+  margin-top: 0px;
+  padding-top: 0px;
+  font-style: italic;
+}
+
+
+.profile {
+  border: 2px solid rgb(255, 255, 255);
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  max-width: 200px;
+  margin: 10px 5px;
+  text-align: center;
+  font-family: arial;
+  padding: 15px;
+  border-radius: 18px;
+  background-color: rgb(230, 169, 55);
+}
+
+.profile:hover{
+  transition:400ms;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  transform: translateY(-3px);
+}
+.email {
+  color: black;
+  font-style: bold;
+  font-size: 17px;
+  overflow-wrap: anywhere;
+}
+.name{
+  font-size:25px;
+  font-weight: bold;
+}
+.loader{
+  margin-left: 500px;
+  margin-top: 200px;
+  margin-right: 80px;
+
+}
